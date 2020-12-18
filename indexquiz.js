@@ -142,7 +142,7 @@ for( g of gamingQuiz)
   let srcol= chalk.bgMagentaBright.bold;
   let opcolor = chalk.bold.cyanBright;
 
-  log(`${srcol('i:')} ${opcolor(g.opt.i)}\n${srcol('ii:')} ${opcolor(g.opt.ii)}\n${srcol('iii:')} ${opcolor(g.opt.iii)}\n${srcol('iv:')} ${g.opt.iv}`);
+  log(`${srcol('i:')} ${opcolor(g.opt.i)}\n${srcol('ii:')} ${opcolor(g.opt.ii)}\n${srcol('iii:')} ${opcolor(g.opt.iii)}\n${srcol('iv:')} ${opcolor(g.opt.iv)}`);
 
   ans = readlineSync.question('👋  So Answer Please : ');
   if(ans.toLowerCase() === g.crt)
