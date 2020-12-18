@@ -158,7 +158,7 @@ for( g of gamingQuiz)
  else{
             log(chalk.redBright('\n Sorry You are Wrong! 👎'));
             log(chalk.redBright('═══════════════════════'));
-            log(chalk.cyanBright`Right Answer: ${g.ans}`);
+            log(chalk.cyanBright`Right Answer: ${g.crt}`);
             log(chalk.greenBright`Current Credits: ${player_score}`);
         }
 }
